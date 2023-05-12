@@ -1,0 +1,169 @@
+.dashboard {
+  background: #dddddd;
+  padding: 56px 60px 24px 46px;
+  display: flex;
+  gap: 60px;
+}
+.right-side {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.side-bar {
+  background: #000000;
+  border-radius: 30px;
+  padding: 60px 50px;
+  width: 280px;
+  color: #ffffff;
+}
+.side-bar > .heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+.side-bar > .menu-section {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.menu-section > .menu-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.menu-item > .item-img {
+  height: 17.5px;
+  width: 17.5px;
+}
+.menu-item > .item-name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.menu-item > .item-name:hover {
+  font-weight: 700;
+}
+.footer {
+  margin-top: 396px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer > h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.header > .heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+.header > .header-right {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.header-right > input {
+  width: 180px;
+  height: 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding-left: 15px;
+}
+
+/* Card-section */
+.card-section {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 221.05px;
+  height: 120px;
+  border-radius: 20px;
+  padding: 20px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: "Lato";
+}
+.card > .card-image {
+  align-self: flex-end;
+}
+.card > .card-heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 5px;
+}
+.card > .card-total-number {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+.line-chart-conatiner {
+  width: 100%;
+  height: 359px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 40px;
+}
+.line-chart-header,
+.pie-chart-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+.pie-chart-conatiner {
+  width: 45%;
+  height: 300px;
+  padding: 15px 40px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.schedule-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.schedule-card {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  padding-left: 15px;
+  border-left: 5px solid #9bdd7c;
+}
+.card-2 {
+  border-left: 5px solid #6972c4;
+}
+.schedule-card-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #666666;
+}
+.schedule-card-time,
+.schedule-card-venue {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #999999;
+}

@@ -1,0 +1,15 @@
+@media (max-width: 426px) {
+  .signin-page {
+    flex-direction: column;
+  }
+  .right-side,
+  .left-side {
+    width: 100%;
+  }
+  .left-side {
+    height: 200px;
+  }
+  .right-side {
+    height: auto;
+  }
+}
