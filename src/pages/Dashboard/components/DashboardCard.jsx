@@ -1,5 +1,4 @@
 import React from "react";
-import totalIcon from "../../../assests/icons/total_revenues_icon.svg";
 const DashboardCard = ({ cardImage, title, number, background }) => {
   return (
     <div className="card" style={{ backgroundColor: background }}>

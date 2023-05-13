@@ -1,6 +1,5 @@
 import { Line } from "react-chartjs-2";
 import "chart.js/auto";
-import { LinearScale } from "chart.js";
 
 const chartData = {
   labels: ["Week 1", "Week 2", "Week 3", "Week 4", "Week 5", "Week 6"],

@@ -76,9 +76,9 @@ const SigninForm = () => {
             className="bg-gray-100 rounded-lg w-full h-10 px-4"
           />
         </div>
-        <a href="#" className="forgot-password text-blue-500 text-sm">
+        <p className="forgot-password text-blue-500 text-sm">
           Forgot password?
-        </a>
+        </p>
         <button className="signin-button bg-black rounded-lg text-white font-bold text-base py-2 px-4 mt-4" onClick={signIn}>
           Sign In
         </button>
